@@ -20,7 +20,9 @@
           <span>
             <img src="images/build.svg" alt="Selo Rocketseat" />
           </span>
-          <img src="http://lorempixel.com/185/185/people/" alt="Foto pessoal" />
+          <img src="https://github.com/j0tappe.png" alt="Foto pessoal" />
+          
+          
         </div>
 
         <h1 id="userName">João Pedro</h1>
@@ -32,24 +34,24 @@
 
         <p>An instructor focused on helping pople start programming for web</p>
 
-        <ul>
-          <li>
+        <ul id="socialLinks">
+          <li class="youtube">
             <a href="http://youtube.com/maykbrito" target="_blank">
               <img src="images/youtube.svg" alt="Youtube logo" />
             </a>
           </li>
-          <li>
-            <a href="http://instagram.com/j0tappe" target="_blank">
+          <li class="instagram">
+            <a href="http://instagram.com/maykbrito" target="_blank">
               <img src="images/instagram.svg" alt="Instagram logo" />
             </a>
           </li>
-          <li>
-            <a href="http://facebook.com/j0tappe" target="_blank">
+          <li class="facebook">
+            <a href="http://facebook.com/maykbrito" target="_blank">
               <img src="images/facebook.svg" alt="facebook logo" />
             </a>
           </li>
-          <li>
-            <a href="http://twitter.com/j0tappe" target="_blank">
+          <li class="twitter">
+            <a href="http://twitter.com/maykbrito" target="_blank">
               <img src="images/twitter.svg" alt="Twitter logo" />
             </a>
           </li>
@@ -62,11 +64,21 @@
         github: "j0tappe",
         facebook: "j0tappe",
         instagram: "j0tappe",
-        youtube: "j0tappe",
+        youtube: "maykbrito",
         twitter: "j0tappe",
       };
 
-      function changeSocialMediaLinks() {}
+      function changeSocialMediaLinks() {
+
+        for(let li of socialLinks.children) {
+          const social = li.getAttribute('class');
+
+          li.children[0].href = `http://${social}.com/${linksSocialMedia[social]}`
+
+          alert(li.children[0].href);
+        }
+
+      }
 
       changeSocialMediaLinks();
     </script>
