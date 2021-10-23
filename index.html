@@ -20,24 +20,27 @@
           <span>
             <img src="images/build.svg" alt="Selo Rocketseat" />
           </span>
-          <img src="https://github.com/j0tappe.png" alt="Foto pessoal" />
-          
-          
+          <img
+            id="userPhoto"
+            src="https://github.com/j0tappe.png"
+            alt="Foto pessoal"
+          />
         </div>
 
         <h1 id="userName">João Pedro</h1>
-
-        <a href="http://github.com/j0tappe" target="_blank">
+        <a id="userProfile" href="http://github.com/j0tappe" target="_blank">
           <img src="images/github.svg" alt="Github logo" />
-          j0tappe
+          <span id="userLogin">maykbrito</span>
         </a>
 
-        <p>An instructor focused on helping pople start programming for web</p>
+        <p id="userBio">
+          An systems support analyst at CESMAC | Front-end Junior developer
+        </p>
 
         <ul id="socialLinks">
-          <li class="youtube">
-            <a href="http://youtube.com/maykbrito" target="_blank">
-              <img src="images/youtube.svg" alt="Youtube logo" />
+          <li class="linkedin">
+            <a href="https://www.linkedin.com/in/maykbrito" target="_blank">
+              <img src="images/linkedin.svg" alt="Linkedin logo" />
             </a>
           </li>
           <li class="instagram">
@@ -59,28 +62,6 @@
       </div>
     </main>
 
-    <script>
-      const linksSocialMedia = {
-        github: "j0tappe",
-        facebook: "j0tappe",
-        instagram: "j0tappe",
-        youtube: "maykbrito",
-        twitter: "j0tappe",
-      };
-
-      function changeSocialMediaLinks() {
-
-        for(let li of socialLinks.children) {
-          const social = li.getAttribute('class');
-
-          li.children[0].href = `http://${social}.com/${linksSocialMedia[social]}`
-
-          alert(li.children[0].href);
-        }
-
-      }
-
-      changeSocialMediaLinks();
-    </script>
+    <script src="main.js" />
   </body>
 </html>
