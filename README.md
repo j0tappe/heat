@@ -31,5 +31,5 @@ npm install
 
 ## 👨🏻‍💻 Como acessar o projeto
 
-# Você pode acessar o projeto clicando [aqui!](https://j0tappe.github.io/heat/).
+- Você pode acessar o projeto clicando [aqui!](https://j0tappe.github.io/heat/).
 
