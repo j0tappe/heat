@@ -1,5 +1,5 @@
 # Heat 
-![image](https://user-images.githubusercontent.com/31297561/126343004-ce3290c2-2b6e-45f9-b021-8652ce3a64bd.png)
+![Prancheta 1logo_doWhile](https://user-images.githubusercontent.com/31297561/138885681-bafffc85-55d8-4964-8f60-d964002d3214.png)
 
 Projeto desenvolvido na 7ª NLW da [Rocketseat](https://rocketseat.com.br/).
 
@@ -26,10 +26,6 @@ git clone https://github.com/j0tappe/heat.git
 yarn install
 # ou
 npm install
-#SASS
-yarn add sass
-# ou
-npm install sass
 ```
 
 ## 👨🏻‍💻 Como acessar o projeto
