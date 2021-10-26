@@ -16,16 +16,16 @@ function changeSocialMediaLinks() {
 
 changeSocialMediaLinks()
 
-function getGitHubProfileInfos() {
-  const url = `http://api.github.com/users/${LinksSocialMedia.github}`
+function getGithubProfileInfos() {
+  const url = `https://api.github.com/users/${linksSocialMedia.github}`
 
   fetch(url)
     .then(response => response.json())
     .then(data => {
-      userName.textContent = data.name
+      userName.textContent = data.name.replace(' de Souza', '')
       userBio.textContent = data.bio
-      userProfile.href = data.html_url
-      userPhoto.src = data.avatar_url
+      userLink.href = data.html_url
+      userImage.src = data.avatar_url
       userLogin.textContent = data.login
     })
 }
