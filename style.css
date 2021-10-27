@@ -78,7 +78,6 @@ p {
 
 ul {
   margin-top: 4rem;
-
   list-style: none;
   padding: 0;
   display: flex;
@@ -105,4 +104,46 @@ ul {
     min-height: 812px;
     height: 100vh;
   }
+}
+
+/* Animations */
+
+#userLink {
+  transition: all ease 0.3s;
+  border-radius: 0.25rem;
+}
+
+#userLink:hover {
+  margin: 3px 3px 0;
+  padding: 8px;
+  border-bottom: 3px solid #ffc323;
+  border-radius: 10px;
+}
+
+.linkedin-img:hover {
+  transition: all ease 0.3s;
+  padding: 2px;
+  border-bottom: 3px solid #ffc323;
+  border-radius: 10px;
+}
+
+.instagram-img:hover {
+  transition: all ease 0.3s;
+  padding: 2px;
+  border-bottom: 3px solid #ffc323;
+  border-radius: 10px;
+}
+
+.facebook-img:hover {
+  transition: all ease 0.3s;
+  padding: 2px;
+  border-bottom: 3px solid #ffc323;
+  border-radius: 10px;
+}
+
+.twitter-img:hover {
+  transition: all ease 0.3s;
+  padding: 2px;
+  border-bottom: 3px solid #ffc323;
+  border-radius: 10px;
 }
