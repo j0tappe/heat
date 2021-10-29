@@ -7,7 +7,7 @@ Projeto desenvolvido na 7ª NLW da [Rocketseat](https://rocketseat.com.br/).
 
 - Este foi o projeto da NLW7/Heat - Origin. É um crachá de identificação digital, criado para o evento DoWhile 2021, também oferecido pela [Rocketseat](https://rocketseat.com.br/).
 
-![mockup](https://user-images.githubusercontent.com/31297561/138978161-68e91a67-3321-4061-804e-9defc335e3c4.png)
+![mockup](https://user-images.githubusercontent.com/31297561/139446297-20d90f52-93cc-4102-8a8c-7155d0e5b6b8.png)
 
 ## 🚀 Tecnologias
  - **[JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)**
